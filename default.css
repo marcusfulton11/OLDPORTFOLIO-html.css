@@ -678,10 +678,21 @@ html, body
 		display: grid;
 	}
 
-	.title h2
+	.title {
+		text-align: left;
+		font-size: 70%;
+	}
+
+	.welcome
 	{
 		font-size: 140%;
 		float: left;
+	}
+
+	.portfolio {
+		font-size: 140%;
+		display: inline-block;
+		
 	}
 
 	p {
@@ -692,5 +703,10 @@ html, body
 	{
 		margin: 0px auto;
 		width: 100%;
+	}
+
+
+	span.byline {
+		display: none;
 	}
   }
