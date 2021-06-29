@@ -654,4 +654,43 @@ html, body
 
 
 
-	
+	/*********************************************************************************/
+   /* Media Query for mobile                                                        */
+  /*********************************************************************************/
+
+  @media screen and (max-width: 600px) {
+	html,body
+	{
+
+		overflow-x: hidden; 
+	}
+
+	body
+	{
+		font-size: 70%;
+		font-weight: 400;
+		background: #1B1B1B url(images/overlay.png) repeat;
+		background-size: 10vw;
+	}
+
+	#menu li
+	{
+		display: grid;
+	}
+
+	.title h2
+	{
+		font-size: 140%;
+		float: left;
+	}
+
+	p {
+	  display: none;
+	}
+
+	.container
+	{
+		margin: 0px auto;
+		width: 100%;
+	}
+  }
