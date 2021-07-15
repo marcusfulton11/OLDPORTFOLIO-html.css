@@ -7,90 +7,99 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 
 </head>
 <body>
-<div id="wrapper1">
-	<div id="header-wrapper">
+<div id="wrapper1" class="container">
+	<div id="wrapper2">
 		<div id="header" class="container">
-			<div id="logo">  <img class="my-pic" src="me.jpg" alt="picture of me">
-				<h1><a href="#">'Marcus Fulton'</a></h1>
-				<span>{Software developer}</span> </div>
+			<div id="imageholder">
+			<img class="my-pic" src="me.jpg" alt="picture of me"> </div>
+			<div id="logo">
+				<h1 id="mf">'Marcus Fulton'</h1>
+				<span id="sd">{Software developer}</span> </div>
 			<div id="menu">
 				<ul>
 					<li class="current_page_item"><a href="#" accesskey="1" title="">[Homepage]</a></li>
-					<li><a href="#" accesskey="2" title="">[About me]</a></li>
-					<li><a href="#" accesskey="3" title="">[My Projects]</a></li>
-					<li><a href="#" accesskey="4" title="">[My C.V.]</a></li>
-					<li><a href="#" accesskey="5" title="">[Contact Info]</a></li>
+					<li><a href="#" accesskey="2" title="">About me</a></li>
+					<li><a href="#" accesskey="3" title="">My Projects</a></li>
+					<li><a href="#" accesskey="4" title="">My C.V.</a></li>
+					<li><a href="#" accesskey="5" title="">Contact Info</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div id="wrapper2">
-		<div id="welcome" class="container">
-			<div class="title">
+	<div id="wrapper3">
+		<div id="welcome-wrapper" class="container">
+			<div id="w-title" class="title">
 				<h2 id="welcometo">Welcome to my portfolio</h2>
 			</div>
-			<p>Please Take some time to explore my website.
+			<p id="welcpara">Please Take some time to explore my website.
 			For info about me click the 'about me' section.
 			I have added a few of my favourite projects that you can view for yourself.
 			Additionally please see my C.V. page</p>
 		</div>
 	</div>
-	<div id="wrapper3">
-		<div id="portfolio" class="container">
-			<div class="title">
+	<div id="wrapper4">
+		<div id="portfolio-wrapper" class="container">
+			<div class="title" id="proj-title">
 				<h2 id="myprojects">My Projects</h2>
 				<span class="byline">Here are some of my favourite projects.</span> </div>
+		<div id="proj-div">
+				<div id="listed-proj1">
 			<div class="column1">
 				<div class="box">
-					<img class="icon Todo-list" src="todoProject.png" alt="todo screenshot" width="120" height="115">
+					<img class="screenshot-image" src="todoProject.png" alt="todo screenshot" width="120" height="115">
 					<h3>To-Do List</h3>
-					<p>a to-do list created with html/css/javascript</p>
-					<a href="#" class="button button-small">Let me see!</a> </div>
+					<p>To-do list created with html/css/javascript</p>
+					<a href="#" class="button-small">Let me see!</a> </div>
 			</div>
 			<div class="column2">
 				<div class="box">
-					<span class="icon icon-trophy"></span>
-					<h3>Wedding rsvp website</h3>
-					<p>a simple rsvp website for my wedding created with html/css/javascript</p>
-					<a href="#" class="button button-small">Let me see!</a> </div>
+					<img class="screenshot-image" src="rsvp.png" alt="rsvp screenshot" width="120" height="115">
+					<h3>Wedding RSVP website</h3>
+					<p>Simple rsvp website for my wedding</p>
+					<a href="#" class="button-small">Let me see!</a> </div>
 			</div>
+		</div>
+		<div id="listed-proj2">
 			<div class="column3">
 				<div class="box">
-					<span class="icon icon-key"></span>
+					<img class="screenshot-image" src="livescore.png" alt="livescore screenshot" width="120" height="115">
 					<h3>Football Scores</h3>
-					<p>An app created for checking SPFL live scores</p>
-					<a href="#" class="button button-small">Let me see!</a> </div>
+					<p>App created for checking SPFL live scores</p>
+					<a href="#" class="button-small">Let me see!</a> </div>
 			</div>
 			<div class="column4">
 				<div class="box">
-					<span class="icon icon-lock"></span>
+					<img class="screenshot-image" src="classic.png" alt="classic screenshot" width="120" height="115">
 					<h3>Classic Football Shirt Shop</h3>
-					<p>a simple shoping site for buying football shirts</p>
-					<a href="#" class="button button-small">Let me see!</a> </div>
+					<p>Simple shoping site for buying football shirts</p>
+					<a href="#" class="button-small">Let me see!</a> </div>
 			</div>
 		</div>
+		</div>
+	</div>
+	</div>
+
+<div id="footer-wrapper" class="container">
+	<div id="f-title" class="title">
+		<h2 id="getit">Get in touch</h2>
+		<p id="contact-inf">Contact Info and Social Media</p>
+	<ul class="contact">
+		<li><a href="https://twitter.com/ScottishJavasc1" class="icon icon-twitter"><span>Twitter</span></a></li>
+		<li><a href="https://linkedin.com/in/marcus-fulton1110" class="icon icon-linkedin"><span>linkedin</span></a></li>
+		<li><a href="https://github.com/marcusfulton11" class="icon icon-github"><span>Github</span></a></li>
+	</ul>
 	</div>
 </div>
-<div id="footer" class="container">
-	<div class="title">
-		<h2>Get in touch</h2>
-		<span class="byline">Contact Info and social media</span> </div>
-	<ul class="contact">
-		<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
-		<li><a href="#" class="icon icon-facebook"><span>fb</span></a></li>
-		<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
-		<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
-		<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
-	</ul>
-</div>
-<div id="copyright" class="container">
+<div id="copyright-wrapper" class="container">
 	<p>&copy; Marcus Fulton. All rights reserved. | Design by Marcus Fulton web dev</a>.</p>
 </div>
+	
+
 </body>
 </html>
