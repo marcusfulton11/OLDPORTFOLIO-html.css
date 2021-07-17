@@ -238,6 +238,10 @@ div.box {
     border-radius: 15%;
 }
 
+.button-small {
+    border-radius: 20%;
+}
+
 
 /******** footer section *********/
 
@@ -274,4 +278,72 @@ div.box {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+/****** smaller screen sizes *******/
+
+@media (min-width: 600px) {
+
+    h3.small{display:none}
+    h3.big {display:inline-block}
+}
+@media only screen and (max-width: 600px) {
+    #mf {
+    font-size: 180%;
+    letter-spacing: 0.30em;
+    text-transform: uppercase;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        margin: 0;
+       
+      }
+
+      a, a:link {
+        border: none
+    }
+
+    li {
+    border: 1px solid rgb(7, 5, 5);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 209, 158);
+    
+    }
+
+    #w-title {
+        font-size: 0.5em;
+    }
+
+    #welcpara {
+        font-size: 0.7em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    .proj-para {
+        display: none;
+    }
+
+    .button-small {
+        border: 1px solid rgb(7, 5, 5) !important;
+    }
+
+    h3.small {display:inline-block}
+    h3.big {display:none}
+
+    ul.contact {
+        margin-right: 35px;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+
 }
