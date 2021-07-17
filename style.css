@@ -290,7 +290,7 @@ div.box {
 @media only screen and (max-width: 600px) {
     #mf {
     font-size: 180%;
-    letter-spacing: 0.30em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     }
 
